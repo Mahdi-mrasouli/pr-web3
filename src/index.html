@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,600&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="main.css">
+
+    <title>web2</title>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="navbarContainer">
+                <img  src="/images/sun2.svg" alt="" class="animate__animated animate__zoomIn  animate__fast icon">
+                <div class="logoContainer"><h1 class="logo">LOGO</h1></div>
+                <div class="menuContainer">
+                    <ul class="menu-list">
+                        <li><a class="menu-list-item" href="#home">Home</a></li> 
+                        <li><a class="menu-list-item" href="#Movies">Movies</a></li> 
+                        <li><a class="menu-list-item" href="#Series">Series</a></li> 
+                        <li><a class="menu-list-item" href="#Popular">Popular</a></li> 
+                        <li><a class="menu-list-item" href="#Trends">Trends</a></li> 
+                    </ul>
+                </div>
+                <div class="profileContainer ">
+                    <div class="profile-container-item" onclick="menuToggle()"><span class="username">Parker</span>
+                        <i class="fas fa-caret-down"></i>
+                        <img src="/images/avatar.png" alt="Profile Image">
+                    </div>
+                </div>
+                <div class="profile-menu">
+                    <ul>
+                        <li>
+                          <img src="/images/icons/user.png"/><a href="#">My profile</a>
+                        </li>
+                        <hr>
+                        <li>
+                          <img src="/images/icons/edit.png" /><a href="#">Edit profile</a>
+                        </li>
+                        <hr>
+                        <li>
+                          <img src="/images/icons/envelope.png" /><a href="#">Inbox</a>
+                        </li>
+                        <hr>
+                        <li>
+                          <img src="/images/icons/setting.png" /><a href="#">Setting</a>
+                        </li>
+                        <hr>
+                        <li>
+                          <img src="/images/icons/logout.png" /><a href="#">Logout</a>
+                        </li>
+                        
+                      </ul>
+                </div>
+                
+            </div>
+        </div>
+        <div class="sidebar">
+            <a class="sidebar-icon" href=""><i class="fa-solid fa-house"></i></a>
+            <a class="sidebar-icon" href=""><i class="fa-solid fa-cart-shopping"></i></i></a>
+            <a class="sidebar-icon" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a class="sidebar-icon" href=""><i class="fa-solid fa-users"></i></a>
+            <a class="sidebar-icon" href=""><i class="fa-solid fa-tv"></i></a>
+            <a class="sidebar-icon" href=""><i class="fa-solid fa-bookmark"></i></a>
+        </div>
+    </div>     
+    <section>
+        <div class="movie-container">
+            <div class="content-container">
+                <div class="movie-slider" >
+                    <div class="movie-baner">
+                        <img src="/images/oppenheimer-cover.jpg" alt="" class=" animate__animated animate__headShake">
+                        <div class="movie-description">
+                            <h1>OPPENHEIMER</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis possimus alias molestias, aliquam iure perferendis!</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half"></i>
+                            </div>
+                            <button class="watch-btn">Watch</button>
+                            <button class="detail watch-btn ">Detail</button>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
